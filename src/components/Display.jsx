@@ -1,9 +1,7 @@
 import React from 'react'
 
-export default function Display({gameOver, text}) {
-  return (
-    <div>
-      {text}
-    </div>
-  )
+import { StyledDisplay } from './styles/StyledDisplay'
+
+export default function Display({ gameOver, text }) {
+  return <StyledDisplay>{text}</StyledDisplay>
 }
